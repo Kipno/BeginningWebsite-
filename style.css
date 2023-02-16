@@ -1,0 +1,50 @@
+.border-box {
+  box-sizing: border-box;
+} /* not sure what is really does but i remember it being a good thing, will look into it later*/
+
+.box {
+  width: 568px;
+  background: #557cc3;
+  padding: 10%;
+  border: 2px solid #1858d8;
+  margin: 20px;
+} /* box of divs/content */
+
+body {background-color: #92a8d1;} 
+
+h1 {
+  font-size: 50px;
+  font-family: Arial, sans-serif, Helvetica, sans-serif;
+  text-transform: capitalize;
+  
+  text-align: center;
+  color: #DEDBD2;
+  background-color: #92a8d1;
+  
+} /* header stylings*/
+
+.ft-background {
+  background-color: #92a8d1;
+} /* footer background */
+
+h4, h2, h3, p, .text-styles {
+  text-align: center;
+  font-family: Arial, sans-serif, Helvetica, sans-serif;
+} /* nested class  */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  height:fit-content
+} /* image styling */
+
+a {
+  text-emphasis: triangle;
+} /* link styling */
+
+a:link    { color: blue;  }
+a:visited { color: red;   }
+a:hover   { color: green; }
+a:active  { color: brown;  }
+ /* link color */
