@@ -1,19 +1,19 @@
 
 .border-box {
   box-sizing: border-box;
-} /* not sure what is really does but i remember it being a good thing, will look into it later*/
+} /*not sure what is really does but i remember it being a good thing, will look into it later*/
 
 .box {
   width: 568px;
   background: #557cc3;
-  padding: 10%;
+  padding: center;
   border: 2px solid #1858d8;
-  margin: 20px;
+  margin: auto;
 } /* box of divs/content */
 
 body {background-color: #92a8d1;} 
 
-h1 {
+.h1 {
   font-size: 50px;
   font-family: Arial, sans-serif, Helvetica, sans-serif;
   text-transform: capitalize;
@@ -28,7 +28,7 @@ h1 {
   background-color: #92a8d1;
 } /* footer background */
 
-box, ul, h4, h2, h3, p, .text-styles {
+ul, h4, h2, h3, p, .text-styles {
   text-align: center;
   font-family: Arial, sans-serif, Helvetica, sans-serif;
 } /* nested class  */
@@ -36,8 +36,8 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 65%;
-  height:fit-content
+  width: 400px;
+  height: 400px;
 } /* image styling */
 
 a {
@@ -49,3 +49,4 @@ a:visited { color: red;   }
 a:hover   { color: green; }
 a:active  { color: brown;  }
  /* link color */
+
