@@ -13,16 +13,6 @@
 
 body {background-color: #92a8d1;} 
 
-.h1 {
-  font-size: 50px;
-  font-family: Arial, sans-serif, Helvetica, sans-serif;
-  text-transform: capitalize;
-  
-  text-align: center;
-  color: #DEDBD2;
-  background-color: #92a8d1;
-  
-} /* header stylings*/
 
 .ft-background {
   background-color: #92a8d1;
@@ -44,9 +34,19 @@ a {
   text-emphasis: triangle;
 } /* link styling */
 
+
 a:link    { color: blue;  }
 a:visited { color: red;   }
 a:hover   { color: green; }
 a:active  { color: brown;  }
  /* link color */
 
+
+h1 {
+  font-size: 50px;
+  font-family: Arial, sans-serif, Helvetica, sans-serif;
+  text-transform: capitalize;
+  
+  text-align: center;
+  color: #DEDBD2;
+} /* header stylings*/
