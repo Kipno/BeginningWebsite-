@@ -28,7 +28,7 @@ h1 {
   background-color: #92a8d1;
 } /* footer background */
 
-ul, h4, h2, h3, p, .text-styles {
+box, ul, h4, h2, h3, p, .text-styles {
   text-align: center;
   font-family: Arial, sans-serif, Helvetica, sans-serif;
 } /* nested class  */
